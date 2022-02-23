@@ -1,0 +1,11 @@
+[package]
+name = "pi_local_timer"
+version = "0.1.0"
+authors = ["suncy <suncy@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+pi_heap = {path="../pi_heap"}
+pi_time = {path="../pi_time"}
+pi_dyn_uint = {path="../pi_dyn_uint"}
+arrayvec = "0.7.0"
