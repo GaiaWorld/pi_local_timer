@@ -1,9 +1,7 @@
 use std::collections::VecDeque;
 
-use pi_dyn_uint::{ClassFactory, UintFactory};
-use time::run_millis;
-use local_timer::{frame_wheel::{FrameWheel, LevelEnum, next_tail}, item::TimeoutItem, local_timer::LocalTimer};
-use std::mem::{replace};
+use pi_time::run_millis;
+use pi_local_timer::{item::TimeoutItem, local_timer::LocalTimer};
 
 #[test]
 fn test(){

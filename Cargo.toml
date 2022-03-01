@@ -1,11 +1,15 @@
 [package]
 name = "pi_local_timer"
 version = "0.1.0"
-authors = ["suncy <suncy@gmail.com>"]
-edition = "2018"
+authors = ["suncy <530739162@qq.com>"]
+edition = "2021"
+description = "Delay timer for task wheel implementation"
+repository = "https://github.com/GaiaWorld/pi_local_timer.git"
+license = "MIT OR Apache-2.0"
+keywords = ["pi", "pi_local_timer", "timer"]
 
 [dependencies]
-pi_heap = {path="../pi_heap"}
-pi_time = {path="../pi_time"}
-pi_dyn_uint = {path="../pi_dyn_uint"}
+pi_heap = "0.1"
+pi_time = "0.1"
+pi_dyn_uint = "0.1"
 arrayvec = "0.7.0"
